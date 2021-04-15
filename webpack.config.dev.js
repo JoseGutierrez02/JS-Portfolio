@@ -64,6 +64,7 @@ module.exports = {
       inject: true,
       template: './public/index.html',
       filename: './index.html',
+      favicon: './src/assets/images/webpack-icon.png',
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].[contenthash].css',
